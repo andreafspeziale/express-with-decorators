@@ -1,0 +1,34 @@
+{
+  "name": "express-with-decorators",
+  "version": "1.0.0",
+  "description": "A simple Express sample using classes, metadata and decorators",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [
+    "typescript",
+    "decorator",
+    "express",
+    "class",
+    "metadata"
+  ],
+  "author": "andreafspeziale - source: shorturl.at/msHY7",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cookie-session": "^2.0.41",
+    "@types/express": "^4.17.7",
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13"
+  }
+}
